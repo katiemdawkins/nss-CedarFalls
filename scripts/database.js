@@ -80,7 +80,7 @@ export const getparkAreas = () => {
     return database.parkAreas.map(parkArea => ({...parkArea}))
 }
 
-export const getserviceOptions = () => {
+export const getservicesOptions = () => {
     return database.servicesOptions.map(servicesOption => ({...servicesOption}))
 }
 
